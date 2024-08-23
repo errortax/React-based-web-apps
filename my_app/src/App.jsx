@@ -12,10 +12,11 @@
 import Mycomponent from "./Mycomponent";
 import ColorPicker from "./ColorPicker";
 import UpdateState from "./UpdateState";
+import ArrayState from "./ArrayState";
 
 function App(){
   //return(<Mycomponent />);
-  return(<UpdateState />);
+  return(<ArrayState />);
 }
 
 export default App;
