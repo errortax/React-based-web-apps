@@ -11,10 +11,11 @@
 
 import Mycomponent from "./Mycomponent";
 import ColorPicker from "./ColorPicker";
+import UpdateState from "./UpdateState";
 
 function App(){
   //return(<Mycomponent />);
-  return(<ColorPicker />);
+  return(<UpdateState />);
 }
 
 export default App;
