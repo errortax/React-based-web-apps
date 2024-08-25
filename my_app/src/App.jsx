@@ -14,11 +14,17 @@ import ColorPicker from "./ColorPicker";
 import UpdateState from "./UpdateState";
 import ArrayState from "./ArrayState";
 import CarList from "./CarList";
+import TodoList from "./TodoList";
+import DigitalClock from "./DigitalClock";
+
+import CompA from "./CompA";
 
 function App(){
   //return(<Mycomponent />);
  // return(<ArrayState />);
- return (<CarList />)
+ //return (<DigitalClock />)
+ return(<CompA />)
+
 }
 
 export default App;
